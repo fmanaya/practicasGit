@@ -1,18 +1,13 @@
 practicasGit
 ============
 
-practicasGit como su nombre indica son diversas practicas para llegar a dominar git ;-)
-
-
+*practicasGit* como su nombre indica son diversas practicas para llegar a dominar git ;-)
 
 Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](http://git-scm.com/) (no la [aplicacion de github](http://windows.github.com/)).
 
-
-
 -primer clone
-	$ git clone https://github.com/fmanaya/practicasGit
-	
-	
+**git clone https://github.com/fmanaya/practicasGit**
+
 	fmanaya@FMANAYAW7 /d/DEV/gitest
 	$ git clone https://github.com/fmanaya/practicasGit
 	Cloning into 'practicasGit'...
@@ -22,6 +17,8 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	Unpacking objects: 100% (9/9), done.
 
 -Estado
+**git status**
+
 	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
 	$ git status
 	# On branch master
@@ -34,17 +31,22 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	no changes added to commit (use "git add" and/or "git commit -a")
 	
 -Ver que ramas (branch) tengo en local
+**git branch**
+
 	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
 	$ git branch
 	* master
 
 -Modifico Readme.md, comit y subo al repo central
+**git commit -a -m 'msg'**
+
 	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
 	$ git commit -a -m 'Primer commit, completo guia'
 	[master b5ae7b7] Primer commit, completo guia
 	 1 file changed, 22 insertions(+), 1 deletion(-)
 
-
+**git push**
+	
 	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
 	$ git push
 	warning: push.default is unset; its implicit value is changing in
@@ -72,4 +74,4 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	   07ee8f1..3c167fc  master -> master
 
 
-
+-Actualizo local con las modificaciones en el repo remoto
