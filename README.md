@@ -22,32 +22,29 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	Unpacking objects: 100% (9/9), done.
 
 -Estado
-fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
-$ git status
-# On branch master
-# Changes not staged for commit:
-#   (use "git add <file>..." to update what will be committed)
-#   (use "git checkout -- <file>..." to discard changes in working directory)
-#
-#       modified:   README.md
-#
-no changes added to commit (use "git add" and/or "git commit -a")
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git status
+	# On branch master
+	# Changes not staged for commit:
+	#   (use "git add <file>..." to update what will be committed)
+	#   (use "git checkout -- <file>..." to discard changes in working directory)
+	#
+	#       modified:   README.md
+	#
+	no changes added to commit (use "git add" and/or "git commit -a")
 	
 -Ver que ramas (branch) tengo en local
-fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
-$ git branch
-* master
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git branch
+	* master
 
 -Modifico Readme.md, comit y subo al repo central
-git commit -a -m 'Primer commit, completo guia'	
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git commit -a -m 'Primer commit, completo guia'
+	[master b5ae7b7] Primer commit, completo guia
+	 1 file changed, 22 insertions(+), 1 deletion(-)
 
-
-fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
-$ git commit -a -m 'Primer commit, completo guia'
-[master b5ae7b7] Primer commit, completo guia
- 1 file changed, 22 insertions(+), 1 deletion(-)
-
-fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
 $
 
 
