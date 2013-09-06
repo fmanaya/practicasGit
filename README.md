@@ -155,3 +155,49 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	Fast-forward
 	 README.md | 30 ++++++++++++++++++------------
 	 1 file changed, 18 insertions(+), 12 deletions(-)
+
+## Renombrar un fichero
+
+**git mv**
+
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ ls
+	README.md  pruebas.txt  recursos.txt  test2.txt
+
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git mv recursos.txt recursos.md
+
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git commit -m "renombrado"
+	[master 14f4de4] renombrado
+	 1 file changed, 0 insertions(+), 0 deletions(-)
+	 rename recursos.txt => recursos.md (100%)
+
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git push
+	warning: push.default is unset; its implicit value is changing in
+	Git 2.0 from 'matching' to 'simple'. To squelch this message
+	and maintain the current behavior after the default changes, use:
+
+	  git config --global push.default matching
+
+	To squelch this message and adopt the new behavior now, use:
+
+	  git config --global push.default simple
+
+	See 'git help config' and search for 'push.default' for further information.
+	(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+	'current' instead of 'simple' if you sometimes use older versions of Git)
+
+	Username for 'https://github.com': fmanaya
+	Password for 'https://fmanaya@github.com':
+	Counting objects: 3, done.
+	Delta compression using up to 4 threads.
+	Compressing objects: 100% (2/2), done.
+	Writing objects: 100% (2/2), 218 bytes | 0 bytes/s, done.
+	Total 2 (delta 1), reused 0 (delta 0)
+	To https://github.com/fmanaya/practicasGit
+	   9a8d7d0..14f4de4  master -> master
+
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ 
