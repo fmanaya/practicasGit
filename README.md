@@ -199,5 +199,36 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	To https://github.com/fmanaya/practicasGit
 	   9a8d7d0..14f4de4  master -> master
 
+## Configuracion
+
+**git config --list**
+
 	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
-	$ 
+	$ git config --list
+	core.symlinks=false
+	core.autocrlf=true
+	color.diff=auto
+	color.status=auto
+	color.branch=auto
+	color.interactive=true
+	pack.packsizelimit=2g
+	help.format=html
+	http.sslcainfo=/bin/curl-ca-bundle.crt
+	sendemail.smtpserver=/bin/msmtp.exe
+	diff.astextplain.textconv=astextplain
+	rebase.autosquash=true
+	user.name=fmanaya
+	user.email=email
+	http.proxy=http://fmanaya:xxxxx@proxy:8080
+	gui.encoding=utf-8
+	core.repositoryformatversion=0
+	core.filemode=false
+	core.bare=false
+	core.logallrefupdates=true
+	core.symlinks=false
+	core.ignorecase=true
+	core.hidedotfiles=dotGitOnly
+	remote.origin.url=https://github.com/fmanaya/practicasGit
+	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+	branch.master.remote=origin
+	branch.master.merge=refs/heads/master
