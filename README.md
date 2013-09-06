@@ -33,6 +33,11 @@ $ git status
 #
 no changes added to commit (use "git add" and/or "git commit -a")
 	
+-Ver que ramas (branch) tengo en local
+fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+$ git branch
+* master
+
 -Modifico Readme.md, comit y subo al repo central
 git commit -a -m 'Primer commit, completo guia'	
 
@@ -44,3 +49,5 @@ $ git commit -a -m 'Primer commit, completo guia'
 
 fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
 $
+
+
