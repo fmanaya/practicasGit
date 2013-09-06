@@ -77,7 +77,68 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	To https://github.com/fmanaya/practicasGit
 	   07ee8f1..3c167fc  master -> master
 
+## Nuevos ficheros
 
+**git status**
+
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git status
+	# On branch master
+	# Untracked files:
+	#   (use "git add <file>..." to include in what will be committed)
+	#
+	#       recursos.txt
+	nothing added to commit but untracked files present (use "git add" to track)
+
+**git add recursos.txt**
+**git commit**
+**git push**
+
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git add recursos.txt
+
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git status
+	# On branch master
+	# Changes to be committed:
+	#   (use "git reset HEAD <file>..." to unstage)
+	#
+	#       new file:   recursos.txt
+	#
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git commit -a -m 'recursos'
+	[master e8a89bc] recursos
+	 1 file changed, 10 insertions(+)
+	 create mode 100644 recursos.txt	
+
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git push
+	warning: push.default is unset; its implicit value is changing in
+	Git 2.0 from 'matching' to 'simple'. To squelch this message
+	and maintain the current behavior after the default changes, use:
+
+	  git config --global push.default matching
+
+	To squelch this message and adopt the new behavior now, use:
+
+	  git config --global push.default simple
+
+	See 'git help config' and search for 'push.default' for further information.
+	(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+	'current' instead of 'simple' if you sometimes use older versions of Git)
+
+	Username for 'https://github.com': fmanaya
+	Password for 'https://fmanaya@github.com':
+	Counting objects: 4, done.
+	Delta compression using up to 4 threads.
+	Compressing objects: 100% (3/3), done.
+	Writing objects: 100% (3/3), 477 bytes | 0 bytes/s, done.
+	Total 3 (delta 0), reused 0 (delta 0)
+	To https://github.com/fmanaya/practicasGit
+	   fc1526f..e8a89bc  master -> master
+	
+	
+	
 ## Actualizo local con las modificaciones en el repo remoto
 
 **git pull**
