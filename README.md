@@ -6,6 +6,7 @@ practicasGit
 Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](http://git-scm.com/) (no la [aplicacion de github](http://windows.github.com/)).
 
 -primer clone
+
 **git clone https://github.com/fmanaya/practicasGit**
 
 	fmanaya@FMANAYAW7 /d/DEV/gitest
@@ -17,6 +18,7 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	Unpacking objects: 100% (9/9), done.
 
 -Estado
+
 **git status**
 
 	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
@@ -31,6 +33,7 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	no changes added to commit (use "git add" and/or "git commit -a")
 	
 -Ver que ramas (branch) tengo en local
+
 **git branch**
 
 	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
@@ -38,6 +41,7 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	* master
 
 -Modifico Readme.md, comit y subo al repo central
+
 **git commit -a -m 'msg'**
 
 	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
