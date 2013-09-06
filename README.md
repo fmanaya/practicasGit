@@ -5,7 +5,7 @@ practicasGit
 
 Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](http://git-scm.com/) (no la [aplicacion de github](http://windows.github.com/)).
 
--primer clone
+# Primer repositorio local
 
 **git clone https://github.com/fmanaya/practicasGit**
 
@@ -17,7 +17,7 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	remote: Total 9 (delta 1), reused 3 (delta 0)
 	Unpacking objects: 100% (9/9), done.
 
--Estado
+# Estado
 
 **git status**
 
@@ -32,7 +32,7 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	#
 	no changes added to commit (use "git add" and/or "git commit -a")
 	
--Ver que ramas (branch) tengo en local
+# Ver que ramas (branch) tengo en local
 
 **git branch**
 
@@ -40,7 +40,7 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	$ git branch
 	* master
 
--Modifico Readme.md, comit y subo al repo central
+# Modifico Readme.md, comit y subo al repo central
 
 **git commit -a -m 'msg'**
 
@@ -78,4 +78,4 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	   07ee8f1..3c167fc  master -> master
 
 
--Actualizo local con las modificaciones en el repo remoto
+# Actualizo local con las modificaciones en el repo remoto
