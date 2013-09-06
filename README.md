@@ -79,3 +79,18 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 
 
 ## Actualizo local con las modificaciones en el repo remoto
+
+**git pull**
+
+	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
+	$ git pull
+	remote: Counting objects: 14, done.
+	remote: Compressing objects: 100% (12/12), done.
+	remote: Total 12 (delta 4), reused 0 (delta 0)
+	Unpacking objects: 100% (12/12), done.
+	From https://github.com/fmanaya/practicasGit
+	   e3e749a..bc1c7fb  master     -> origin/master
+	Updating e3e749a..bc1c7fb
+	Fast-forward
+	 README.md | 30 ++++++++++++++++++------------
+	 1 file changed, 18 insertions(+), 12 deletions(-)
