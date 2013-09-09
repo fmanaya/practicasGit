@@ -5,9 +5,14 @@ practicasGit
 
 Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](http://git-scm.com/) (no la [aplicacion de github](http://windows.github.com/)).
 
-## Primer repositorio local
+El ciclo de vida y estado de un fichero bajo control de git es:
 
-**git clone https://github.com/fmanaya/practicasGit**
+![](http://git-scm.com/figures/18333fig0201-tn.png)
+
+
+## Primer repositorio local (downstream)
+
+**git clone https://github.com/fmanaya/practicasGit** [dir]
 
 	fmanaya@FMANAYAW7 /d/DEV/gitest
 	$ git clone https://github.com/fmanaya/practicasGit
@@ -40,7 +45,7 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	$ git branch
 	* master
 
-## Modifico Readme.md, comit y subo al repo central
+## Modifico Readme.md, comit y subo al repo central (upsrteam)
 
 **git commit -a -m 'msg'**
 
@@ -49,6 +54,8 @@ Comienzo por crear un repositorio aqui en github. En local tengo [git estandar](
 	[master b5ae7b7] Primer commit, completo guia
 	 1 file changed, 22 insertions(+), 1 deletion(-)
 
+La opcion -a sirve para puentear el area de preparacion, y asi nos evitamos el comando ```git add xxx	 ```
+	 
 **git push**
 	
 	fmanaya@FMANAYAW7 /d/DEV/gitest/practicasGit (master)
